@@ -223,3 +223,20 @@ data/processed/*
 
 # Trained models
 models/*
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.pyc
+
+# Local datasets and prediction history
+data/
+
+# Generated model files
+models/
+*.joblib
+
+# Local secrets
+.env
+
+data/predictions.db
